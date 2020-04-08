@@ -1,9 +1,14 @@
 import React from 'react';
 import Button from "../../components/Button/Button";
+import GlobalStyle from "../../theme/GlobalStyle";
 
-const Root = () =>
+const Root = () => (
     <div>
-        <h1> Hello from root !</h1>
-        <Button>Click me</Button>
-    </div>;
+        <GlobalStyle />
+        <h1>Hello Roman</h1>
+        <Button>Close / Save</Button>
+        <Button secondary>Remove</Button>
+    </div>
+);
+
 export default Root;
