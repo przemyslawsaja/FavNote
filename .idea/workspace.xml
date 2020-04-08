@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/0-Welcome.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/1-Button.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/Button/Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root/Root.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Przemek\WebstormProjects\project2\src\components\Atoms" />
       <recent name="C:\Users\Przemek\WebstormProjects\project2\src\stories" />
       <recent name="C:\Users\Przemek\WebstormProjects\project2\src\components\Button" />
       <recent name="C:\Users\Przemek\WebstormProjects\project2\src\views\Root" />
@@ -88,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586354094260</updated>
-      <workItem from="1586354099272" duration="15228000" />
+      <workItem from="1586354099272" duration="16882000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -104,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586367221645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Storybook + knobs added">
+      <created>1586377759212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586377759212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +118,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Base project structure, styled components package installed." />
     <MESSAGE value="GlobalStyles added." />
-    <option name="LAST_COMMIT_MESSAGE" value="GlobalStyles added." />
+    <MESSAGE value="Storybook + knobs added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Storybook + knobs added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="92" key="#ESLint" timestamp="1586357475456">
@@ -129,10 +134,10 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1452" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355840025" />
-    <state x="354" y="0" key="CommitChangelistDialog2" timestamp="1586367218215">
+    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1586377748218">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
-    <state x="354" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586367218215" />
+    <state x="317" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586377748218" />
     <state x="-1674" y="76" key="SettingsEditor" timestamp="1586355667958">
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
