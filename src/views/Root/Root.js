@@ -2,10 +2,8 @@ import React from 'react';
 import { ThemeProvider} from "styled-components";
 import Button from "../../components/Atoms/Button/Button";
 import GlobalStyle from "../../theme/GlobalStyle";
+import { theme } from "../../theme/mainTheme";
 
-const theme = {
-    primary: 'black',
-};
 const Root = () => (
     <div>
         <GlobalStyle />

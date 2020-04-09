@@ -3,9 +3,10 @@ import Button from './Button.js'
 import { withKnobs, select } from '@storybook/addon-knobs';
 import { addDecorator } from '@storybook/react';
 
-
-export default { title: 'Button' };
-
+export default {
+    component: Button,
+    title: 'Button',
+};
 addDecorator(withKnobs);
 
 export const primmary = () => {
