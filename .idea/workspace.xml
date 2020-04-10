@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Molecules/Card/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Molecules/Card/Card.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/mainTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/MainTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Notes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Twitters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Atoms/Button/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/Button/Button.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/0-Welcome.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/1-Button.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Molecules/Card/Card.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Molecules/Card/Card.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/GlobalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root/Root.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Przemek\WebstormProjects\project2\src\views" />
       <recent name="C:\Users\Przemek\WebstormProjects\project2\src\assets" />
       <recent name="C:\Users\Przemek\WebstormProjects\project2\src" />
       <recent name="C:\Users\Przemek\WebstormProjects\project2\src\components\Atoms" />
       <recent name="C:\Users\Przemek\WebstormProjects\project2\src\components\Atoms\ButtonIcon" />
-      <recent name="C:\Users\Przemek\WebstormProjects\project2\src\stories" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -95,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586354094260</updated>
       <workItem from="1586354099272" duration="20456000" />
-      <workItem from="1586423897590" duration="22963000" />
+      <workItem from="1586423897590" duration="36595000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -125,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586379570584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Atoms components completed + 1 molecule (Card component)">
+      <created>1586463095884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586463095884</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +150,8 @@
     <MESSAGE value="GlobalStyles added." />
     <MESSAGE value="Storybook + knobs added" />
     <MESSAGE value="Theme provider added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Theme provider added." />
+    <MESSAGE value="Atoms components completed + 1 molecule (Card component)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atoms components completed + 1 molecule (Card component)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="92" key="#ESLint" timestamp="1586357475456">
@@ -152,18 +166,18 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1452" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355840025" />
-    <state x="28" y="0" key="CommitChangelistDialog2" timestamp="1586462414683">
+    <state x="28" y="0" key="CommitChangelistDialog2" timestamp="1586463090039">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="106" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586379566724" />
-    <state x="28" y="0" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586462414683" />
+    <state x="28" y="0" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586463090039" />
     <state x="-1674" y="76" key="SettingsEditor" timestamp="1586355667958">
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1674" y="76" key="SettingsEditor/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355667958" />
-    <state x="744" y="200" key="run.anything.popup" timestamp="1586460903857">
+    <state x="744" y="200" key="run.anything.popup" timestamp="1586466805511">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
-    <state x="744" y="200" key="run.anything.popup/0.0.1461.864@0.0.1461.864" timestamp="1586460903857" />
+    <state x="744" y="200" key="run.anything.popup/0.0.1461.864@0.0.1461.864" timestamp="1586466805511" />
   </component>
 </project>

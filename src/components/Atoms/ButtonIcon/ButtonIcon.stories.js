@@ -19,7 +19,7 @@ const YellowBackground = styled.div`
   background-color: ${({ theme }) => theme.note};
 `;
 export default {
-    title: 'ButtonIcon',
+    title: 'Atoms/ButtonIcon',
     decorators: [storyFn => <YellowBackground>{storyFn()}</YellowBackground>],
 };
 

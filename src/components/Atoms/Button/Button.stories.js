@@ -5,7 +5,7 @@ import { addDecorator } from '@storybook/react';
 
 export default {
     component: Button,
-    title: 'Button',
+    title: 'Atoms/Button',
 };
 addDecorator(withKnobs);
 
