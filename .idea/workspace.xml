@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/MainTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Notes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Twitters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/UserPageTemplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Button/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/Button/Button.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Molecules/Card/Card.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Molecules/Card/Card.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Molecules/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Molecules/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/GlobalStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root/Root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Twitters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Twitters.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586354094260</updated>
       <workItem from="1586354099272" duration="20456000" />
-      <workItem from="1586423897590" duration="36595000" />
+      <workItem from="1586423897590" duration="46653000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -138,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586463095884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Navbar with routes completed.">
+      <created>1586519966699</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586519966699</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +150,8 @@
     <MESSAGE value="Storybook + knobs added" />
     <MESSAGE value="Theme provider added." />
     <MESSAGE value="Atoms components completed + 1 molecule (Card component)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atoms components completed + 1 molecule (Card component)" />
+    <MESSAGE value="Navbar with routes completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar with routes completed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="92" key="#ESLint" timestamp="1586357475456">
@@ -166,11 +166,11 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1452" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355840025" />
-    <state x="28" y="0" key="CommitChangelistDialog2" timestamp="1586463090039">
+    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1586519961730">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="106" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586379566724" />
-    <state x="28" y="0" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586463090039" />
+    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586519961730" />
     <state x="-1674" y="76" key="SettingsEditor" timestamp="1586355667958">
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>

@@ -65,32 +65,31 @@ const LinkButton = styled.a`
   top: 50%;
   transform: translateY(-50%);
 `;
-const Card = ({cardType}) => (
+const Card = ({cardType, title, created, content, articleUrl, twitterName}) => (
     <Wrapper>
         <InnerWrapper activeColor={cardType}>
-            <StyledHeading>Hello Roman</StyledHeading>
-            <DateInfo>3 days</DateInfo>
-            { cardType === 'twitter' &&  <Avatar src="https://avatars.io/twitter/hello_roman"/>}
-            { cardType === 'article' &&  <LinkButton href="https://youtube.com/helloroman"/>}
-
-
+            <StyledHeading>{title}</StyledHeading>
+            <DateInfo>{created}</DateInfo>
+            { cardType === 'twitter' &&  <Avatar src={`https://avatars.io/twitter/${twitterName}`}/>}
+            { cardType === 'article' &&  <LinkButton href={articleUrl}/>}
         </InnerWrapper>
         <InnerWrapper flex>
-            <Paragraph>
-                This will register all the addons and you’ll be able to see the actions and knobs panels
-                (in that order) when you are viewing the story. (Links do not register a tab—check individual
-                addon docs to see which Storybook features they use!)
-            </Paragraph>
+            <Paragraph> {content}</Paragraph>
             <Button secondary>REMOVE</Button>
         </InnerWrapper>
-
-
     </Wrapper>
 );
 Card.propTypes = {
     cardType: PropTypes.oneOf(['note','twitter','article']),
+    title: PropTypes.string.isRequired,
+    created: PropTypes.string.isRequired,
+    twitterName: PropTypes.string,
+    articleUrl: PropTypes.string,
+    content: PropTypes.string.isRequired,
 };
 Card.defaultProps = {
     cardType: 'note',
+    twitterName: null,
+    articleUrl: null,
 };
 export default Card;
