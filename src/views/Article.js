@@ -1,10 +1,10 @@
 import React from 'react';
-import UserPageTemplate from "../templates/UserPageTemplate";
-import Heading from "../components/Atoms/Heading/Heading";
+import GridTemplate from "../templates/GridTemplate";
 import Card from "../components/Molecules/Card/Card";
 
 const articles = [
     {
+        id: '1',
         title: 'Article',
         created: '1 day ago',
         content: 'Lorem ipsum dolor sit amet felis. Maecenas pharetra velit pede urna eu libero quis justo. ' +
@@ -13,6 +13,7 @@ const articles = [
         articleUrl: "https://www.google.pl/"
     },
     {
+        id: '2',
         title: 'Article',
         created: '1 day ago',
         content: 'Lorem ipsum dolor sit amet felis. Maecenas pharetra velit pede urna eu libero quis justo. ' +
@@ -21,6 +22,7 @@ const articles = [
         articleUrl: "https://www.google.pl/"
     },
     {
+        id: '3',
         title: 'Article',
         created: '1 day ago',
         content: 'Lorem ipsum dolor sit amet felis. Maecenas pharetra velit pede urna eu libero quis justo. ' +
@@ -29,6 +31,7 @@ const articles = [
         articleUrl: "https://www.google.pl/"
     },
     {
+        id: '4',
         title: 'Article',
         created: '1 day ago',
         content: 'Lorem ipsum dolor sit amet felis. Maecenas pharetra velit pede urna eu libero quis justo. ' +
@@ -37,6 +40,7 @@ const articles = [
         articleUrl: "https://www.google.pl/"
     },
     {
+        id: '5',
         title: 'Article',
         created: '1 day ago',
         content: 'Lorem ipsum dolor sit amet felis. Maecenas pharetra velit pede urna eu libero quis justo. ' +
@@ -45,6 +49,7 @@ const articles = [
         articleUrl: "https://www.google.pl/"
     },
     {
+        id: '6',
         title: 'Article',
         created: '5 day ago',
         content: 'Lorem ipsum dolor sit amet felis. Maecenas pharetra velit pede urna eu libero quis justo. ' +
@@ -55,18 +60,19 @@ const articles = [
 ];
 
 const Article = () => (
-    <UserPageTemplate pageType="article" >
+    <GridTemplate pageType="articles" >
         {articles.map( a => (
             <Card
+                id={a.id}
                 title={a.title}
                 content={a.content}
                 created={a.created}
                 articleUrl={a.articleUrl}
-                cardType="article"
+                cardType="articles"
                 key={a.title}
             />
         ))}
-    </UserPageTemplate>
+    </GridTemplate>
  );
 
 export default Article;

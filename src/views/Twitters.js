@@ -1,9 +1,9 @@
 import React from 'react';
-import UserPageTemplate from "../templates/UserPageTemplate";
-import Heading from "../components/Atoms/Heading/Heading";
+import GridTemplate from "../templates/GridTemplate";
 import Card from "../components/Molecules/Card/Card";
 const twitters = [
     {
+        id: '1',
         title: 'Hillary C.',
         created: '3 day ago',
         twitterName: 'HillaryClinton',
@@ -12,6 +12,7 @@ const twitters = [
             ' Nulla ante. Nullam libero facilisis nec,',
     },
     {
+        id: '2',
         title: 'Donald',
         created: '1 day ago',
         twitterName: 'realDonaldTrump',
@@ -20,6 +21,7 @@ const twitters = [
             ' Nulla ante. Nullam libero facilisis nec,',
     },
     {
+        id: '3',
         title: 'Tom Cotton',
         created: '2 day ago',
         twitterName: 'SenTomCotton',
@@ -28,6 +30,7 @@ const twitters = [
             ' Nulla ante. Nullam libero facilisis nec,',
     },
     {
+        id: '4',
         title: 'Richard D.',
         created: '1 day ago',
         twitterName: 'RichardDawkins',
@@ -36,6 +39,7 @@ const twitters = [
             ' Nulla ante. Nullam libero facilisis nec,',
     },
     {
+        id: '5',
         title: 'CodeWise',
         created: '1 day ago',
         twitterName: 'Rob_Gryn',
@@ -44,6 +48,7 @@ const twitters = [
             ' Nulla ante. Nullam libero facilisis nec,',
     },
     {
+        id: '6',
         title: 'My Office',
         created: '5 day ago',
         twitterName: 'Rob_Gryn',
@@ -52,18 +57,19 @@ const twitters = [
     },
 ];
 const Twitters = () => (
-    <UserPageTemplate pageType="twitter">
+    <GridTemplate pageType="twitters">
         {twitters.map( t => (
             <Card
+                id={t.id}
                 title={t.title}
                 twitterName={t.twitterName}
                 content={t.content}
                 created={t.created}
-                cardType="twitter"
+                cardType="twitters"
                 key={t.title}
             />
         ))}
-    </UserPageTemplate>
+    </GridTemplate>
 );
 
 export default Twitters;

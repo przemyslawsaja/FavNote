@@ -2,7 +2,7 @@ import styled, {css} from 'styled-components';
 
 const Button = styled.button`
   padding: 0;
-  background-color: ${({theme})=> theme.note};
+  background-color: ${({ activeColor, theme}) => activeColor ? theme[activeColor] : 'white'};
   width: 220px;
   height: 47px;
   border: none;
@@ -11,6 +11,7 @@ const Button = styled.button`
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
+  cursor: pointer;
   
   ${({secondary}) => (
       secondary && css`
