@@ -19,31 +19,31 @@ class DetailsPage extends React.Component {
             case routes.article:
                 this.setState({ pageType: 'articles'});
                 break;
+            default:
+                console.log('Something went wrong with matching paths');
         }
     }
 
     render() {
+        const dummyArticle = {
+            id: 1,
+            title: 'Wake me up when Vue ends',
+            content:
+                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, tempora quibusdam natus modi tempore esse adipisci, dolore odit animi',
+            twitterName: 'hello_roman',
+            articleUrl: 'https://youtube.com/helloroman',
+            created: '1 day',
+        };
 
         return(
-            <DetailsTemplate pageType={this.state.pageType}>
-                <Paragraph>
-                    Nowe ograniczenia:- matury i egzamin kończący podstawówkę przełożone na czerwiec
-                    - szkoły zamknięte do niedzieli 26 kwietnia
-                    - zasłanianie ust i nosa obowiązkowe od 16 kwietniaOgraniczenia nadal obowiązujące:• ograniczenia w przemieszczaniu się;
-                    • zakaz wychodzenia na ulicę nieletnich bez opieki dorosłego;
-                    • ograniczenia w wydarzeniach o charakterze religijnych – w kościołach może przebywać maksymalnie 5 osób. Zasada obowiązuje również w święta Wielkiej Nocy!
-                    • ograniczenia w funkcjonowaniu galerii handlowych i wielkopowierzchniowych sklepów budowlanych;
-                    • zasady w poruszaniu się przy pomocy komunikacji publicznej i samochodami większymi niż 9-osobowe;
-                    • zawieszenie działalności zakładów fryzjerskich, kosmetycznych, tatuażu itd.;
-                    • zakaz korzystania z parków, lasów, plaż, bulwarów, promenad i rowerów miejskich;
-                    • zamknięcie restauracji;
-                    • ograniczenia dotyczące liczby osób w sklepach, na targach i na poczcie;
-                    • ograniczenia w działalności instytucji kultury (w kinach, teatrach itp.).
-                    • zamknięcie szkół, uczelni, przedszkoli i żłobków;
-                    • zamknięcie pasażerskiego ruchu lotniczego;
-                    • zamknięcie międzynarodowego ruchu kolejowego.
-                </Paragraph>
-            </DetailsTemplate>
+            <DetailsTemplate
+                pageType={this.state.pageType}
+                title={dummyArticle.title}
+                content={dummyArticle.content}
+                created={dummyArticle.created}
+                articleUrl={dummyArticle.articleUrl}
+                twitterName={dummyArticle.twitterName}
+            />
         )
     }
 }

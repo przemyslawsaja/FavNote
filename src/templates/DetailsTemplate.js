@@ -6,6 +6,7 @@ import Button from "../components/Atoms/Button/Button";
 import styled from "styled-components";
 import Heading from "../components/Atoms/Heading/Heading";
 import LinkIcon from "../assets/icons/link.svg";
+import Paragraph from "../components/Atoms/Paragraph/Paragraph";
 
 const Wrapper = styled.div`
   width: 500px;
@@ -41,20 +42,22 @@ const LinkButton = styled.a`
   background-size: 60%;
   background-position: 50%;
 `;
-const DetailsTemplate = ({ children, pageType }) => (
+const DetailsTemplate = ({ pageType, title, content, created, articleUrl, twitterName }) => (
     <UserPageTemplate pageType={pageType}>
        <Wrapper>
            <HeaderWrapper>
                <div>
-                   <CustomHeading>{pageType}</CustomHeading>
-                   <h4>Created - 10/04/2020</h4>
+                   <CustomHeading>{title}</CustomHeading>
+                   <h4>{created} ago</h4>
                </div>
-               { pageType === 'twitters' &&  <Avatar src={`https://avatars.io/twitter/Rob_Gryn`}/>}
-               { pageType === 'articles' &&  <LinkButton href="https://twitter.com/rob_gryn"/>}
+               { pageType === 'twitters' &&  <Avatar src={`https://avatars.io/twitter/${twitterName}`}/>}
+               { pageType === 'articles' &&  <LinkButton href={articleUrl}/>}
            </HeaderWrapper>
 
            <ContentWrapper>
-               {children}
+               <Paragraph>
+                   {content}
+               </Paragraph>
            </ContentWrapper>
 
            <Link to="/"> <Button activeColor={pageType}>GO BACK</Button> </Link>

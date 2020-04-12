@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Molecules/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Molecules/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/DetailsTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/DetailsTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/DetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/DetailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Twitters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Twitters.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +23,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="przemyslawsaja" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="FavNote" />
   </component>
   <component name="ProjectId" id="1aGFbSM6jmesVOeGZlSRQqcwMQi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,7 +102,7 @@
       <updated>1586354094260</updated>
       <workItem from="1586354099272" duration="20456000" />
       <workItem from="1586423897590" duration="49295000" />
-      <workItem from="1586594292226" duration="13068000" />
+      <workItem from="1586594292226" duration="28203000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -143,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586607303050</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="files update.">
+      <created>1586619528076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586619528076</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +183,8 @@
     <MESSAGE value="Navbar with routes completed." />
     <MESSAGE value="Base Article/Twitters/Notes view finished." />
     <MESSAGE value="routes view/:id added to each view." />
-    <option name="LAST_COMMIT_MESSAGE" value="routes view/:id added to each view." />
+    <MESSAGE value="files update." />
+    <option name="LAST_COMMIT_MESSAGE" value="files update." />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="92" key="#ESLint" timestamp="1586357475456">
@@ -174,11 +199,15 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1452" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355840025" />
-    <state x="106" y="0" key="CommitChangelistDialog2" timestamp="1586607296205">
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1586619525903">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
-    <state x="106" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586607296205" />
+    <state x="262" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586619525903" />
     <state x="194" y="0" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586531978549" />
+    <state x="512" y="294" key="Github.CreatePullRequestDialog" timestamp="1586619537063">
+      <screen x="0" y="0" width="1461" height="864" />
+    </state>
+    <state x="512" y="294" key="Github.CreatePullRequestDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586619537063" />
     <state x="611" y="328" width="262" height="208" key="Github.ShareDialog" timestamp="1586607699148">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
@@ -203,9 +232,13 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1674" y="76" key="SettingsEditor/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355667958" />
-    <state x="744" y="200" key="run.anything.popup" timestamp="1586466805511">
+    <state x="744" y="200" key="run.anything.popup" timestamp="1586700414220">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
-    <state x="744" y="200" key="run.anything.popup/0.0.1461.864@0.0.1461.864" timestamp="1586466805511" />
+    <state x="744" y="200" key="run.anything.popup/0.0.1461.864@0.0.1461.864" timestamp="1586700414220" />
+    <state x="393" y="181" key="search.everywhere.popup" timestamp="1586717335240">
+      <screen x="0" y="0" width="1461" height="864" />
+    </state>
+    <state x="393" y="181" key="search.everywhere.popup/0.0.1461.864@0.0.1461.864" timestamp="1586717335240" />
   </component>
 </project>
