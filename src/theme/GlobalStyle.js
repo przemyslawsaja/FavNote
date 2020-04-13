@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { device } from "../devices/breakpoints";
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
@@ -15,9 +16,13 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     margin: 0;
-    padding-left: 175px;
+    padding: 0;
     font-size: 1.6rem;
     font-family: "Montserrat", sans-serif;
+   
+      @media ${device.laptop} { 
+      padding-left: 175px
+   }
   }
 `;
 

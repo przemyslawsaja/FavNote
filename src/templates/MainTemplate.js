@@ -32,7 +32,6 @@ class MainTemplate extends React.Component {
         return (
             <div>
                 <PageContext.Provider value={pageType}>
-
                     <GlobalStyle />
                     <ThemeProvider theme={theme}>
                         <>
