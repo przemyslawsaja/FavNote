@@ -4,6 +4,8 @@ FavNote.
 ## Technolgies 
 React.js | Redux | Context | React-Router | UUID | Styled-Component | Formik | Storybook.js | HOC
 
+
+
 This project was bootstrapped with [Create React Root](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
