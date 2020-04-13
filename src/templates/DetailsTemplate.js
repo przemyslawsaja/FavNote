@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import UserPageTemplate from "./UserPageTemplate";
+import withContext from "../hoc/withContext";
 import { Link } from "react-router-dom";
 import Button from "../components/Atoms/Button/Button";
 import styled from "styled-components";
@@ -30,8 +31,6 @@ const Avatar = styled.img`
   height: 100px;
   border: 5px solid ${({ theme }) => theme.twitters};
   border-radius: 50px;
-
-
 `;
 const LinkButton = styled.a`
   display: block;
@@ -42,27 +41,25 @@ const LinkButton = styled.a`
   background-size: 60%;
   background-position: 50%;
 `;
-const DetailsTemplate = ({ pageType, title, content, created, articleUrl, twitterName }) => (
-    <UserPageTemplate pageType={pageType}>
+const DetailsTemplate = ({ pageContext, title, content, created, articleUrl, twitterName }) => (
+    <UserPageTemplate>
        <Wrapper>
            <HeaderWrapper>
                <div>
                    <CustomHeading>{title}</CustomHeading>
                    <h4>{created} ago</h4>
                </div>
-               { pageType === 'twitters' &&  <Avatar src={`https://avatars.io/twitter/${twitterName}`}/>}
-               { pageType === 'articles' &&  <LinkButton href={articleUrl}/>}
+               { pageContext === 'twitters' &&  <Avatar src={`https://avatars.io/twitter/${twitterName}`}/>}
+               { pageContext === 'articles' &&  <LinkButton href={articleUrl}/>}
            </HeaderWrapper>
-
            <ContentWrapper>
                <Paragraph>
                    {content}
                </Paragraph>
            </ContentWrapper>
-
-           <Link to="/"> <Button activeColor={pageType}>GO BACK</Button> </Link>
+           <Link to={`/${pageContext}`}> <Button activeColor={pageContext}>GO BACK</Button></Link>
        </Wrapper>
     </UserPageTemplate>
 );
 
-export default DetailsTemplate;
+export default withContext(DetailsTemplate);

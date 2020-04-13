@@ -4,7 +4,7 @@ import GridTemplate from "../templates/GridTemplate";
 import Card from "../components/Molecules/Card/Card";
 
 const Notes = ({notes}) => (
-    <GridTemplate pageType="notes">
+    <GridTemplate>
         {notes.map( n => (
             <Card
                 id={n.id}

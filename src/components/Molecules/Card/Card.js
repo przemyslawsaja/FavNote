@@ -7,7 +7,8 @@ import Heading from "../../Atoms/Heading/Heading";
 import Button from "../../Atoms/Button/Button"
 import LinkIcon from "../../../assets/icons/link.svg";
 import { connect } from "react-redux";
-import { removeItem} from "../../../actions";
+import { removeItemAction } from "../../../actions";
+import withContext from "../../../hoc/withContext";
 
 
 const Wrapper = styled.div`
@@ -76,22 +77,22 @@ class Card extends React.Component {
     };
     handleCardClick = () => this.setState({redirect: true});
     render() {
-        const {id, cardType, title, created, content, articleUrl, twitterName, removeItem} = this.props;
+        const {id, pageContext, title, created, content, articleUrl, twitterName, removeItem} = this.props;
 
         if(this.state.redirect){
-            return <Redirect to={`${cardType}/${id}`} />
+            return <Redirect to={`${pageContext}/${id}`} />
         }
         return (
             <Wrapper onClick={this.handleCardClick}>
-                <InnerWrapper activeColor={cardType}>
+                <InnerWrapper activeColor={pageContext}>
                     <StyledHeading>{title}</StyledHeading>
                     <DateInfo>{created}</DateInfo>
-                    { cardType === 'twitters' &&  <Avatar src={`https://avatars.io/twitter/${twitterName}`}/>}
-                    { cardType === 'articles' &&  <LinkButton href={articleUrl}/>}
+                    { pageContext === 'twitters' &&  <Avatar src={`https://avatars.io/twitter/${twitterName}`}/>}
+                    { pageContext === 'articles' &&  <LinkButton href={articleUrl}/>}
                 </InnerWrapper>
                 <InnerWrapper flex>
                     <Paragraph> {content}</Paragraph>
-                    <Button secondary onClick={() => removeItem(cardType, id)}>REMOVE</Button>
+                    <Button secondary onClick={() => removeItem(pageContext, id)}>REMOVE</Button>
                 </InnerWrapper>
             </Wrapper>
         )
@@ -99,7 +100,7 @@ class Card extends React.Component {
 }
 
 Card.propTypes = {
-    cardType: PropTypes.oneOf(['notes','twitters','articles']),
+    pageContext: PropTypes.oneOf(['notes','twitters','articles']),
     title: PropTypes.string.isRequired,
     created: PropTypes.string.isRequired,
     twitterName: PropTypes.string,
@@ -107,12 +108,12 @@ Card.propTypes = {
     content: PropTypes.string.isRequired,
 };
 Card.defaultProps = {
-    cardType: 'notes',
+    pageContext: 'notes',
     twitterName: null,
     articleUrl: null,
 };
 const mapDispatchToProps = dispatch => ({
-    removeItem: (itemType, id) => dispatch(removeItem(itemType,id))
+    removeItem: (itemType, id) => dispatch(removeItemAction(itemType,id))
 });
 
-export default connect(null, mapDispatchToProps )(Card);
+export default connect(null, mapDispatchToProps )(withContext(Card));

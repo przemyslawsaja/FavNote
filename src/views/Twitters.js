@@ -5,7 +5,7 @@ import Card from "../components/Molecules/Card/Card";
 import PropTypes from 'prop-types'
 
 const Twitters = ({twitters}) => (
-    <GridTemplate pageType="twitters">
+    <GridTemplate>
         {twitters.map( t => (
             <Card
                 id={t.id}

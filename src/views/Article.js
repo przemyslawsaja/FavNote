@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 
 const Article = ({articles}) => (
-    <GridTemplate pageType="articles" >
+    <GridTemplate>
         {articles.map( a => (
             <Card
                 id={a.id}
