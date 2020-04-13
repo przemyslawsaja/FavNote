@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/precache-manifest.27a5b40a54be887138f1994e14a55a27.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.a7e82139.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.a7e82139.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.a7e82139.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.267f7711.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.267f7711.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.bb46dab6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.bb46dab6.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/bulb.af737b55.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/link.6fc1d8fe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/logout.0969c92b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/magnifier.a14461b8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/pen.84b70f8a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/plus.e43ce6c8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/twitter.051af8ba.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devices/breakpoints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Organisms/NewItemBar/NewItemBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Organisms/NewItemBar/NewItemBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Organisms/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/GridTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/GridTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/GlobalStyle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +90,7 @@
       <updated>1586354094260</updated>
       <workItem from="1586354099272" duration="20456000" />
       <workItem from="1586423897590" duration="49295000" />
-      <workItem from="1586594292226" duration="59069000" />
+      <workItem from="1586594292226" duration="60351000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -203,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586788576545</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added mediaqueries + build dir.">
+      <created>1586802588108</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586802588108</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +207,8 @@
     <MESSAGE value="Add RemoveItem action. User can delete notes/articles and twitters." />
     <MESSAGE value="Added adding item sidebar." />
     <MESSAGE value="Adding item sidebar done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding item sidebar done." />
+    <MESSAGE value="Added mediaqueries + build dir." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mediaqueries + build dir." />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="92" key="#ESLint" timestamp="1586357475456">
@@ -249,16 +223,16 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1452" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355840025" />
-    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1586788572658">
+    <state x="228" y="0" width="1143" height="864" key="CommitChangelistDialog2" timestamp="1586803817632">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="262" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586619525903" />
-    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586788572658" />
-    <state x="512" y="294" key="Github.CreatePullRequestDialog" timestamp="1586792810525">
+    <state x="228" y="0" width="1143" height="864" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586803817632" />
+    <state x="512" y="294" key="Github.CreatePullRequestDialog" timestamp="1586803029183">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="512" y="294" key="Github.CreatePullRequestDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586619537063" />
-    <state x="512" y="294" key="Github.CreatePullRequestDialog/0.0.1461.864@0.0.1461.864" timestamp="1586792810525" />
+    <state x="512" y="294" key="Github.CreatePullRequestDialog/0.0.1461.864@0.0.1461.864" timestamp="1586803029183" />
     <state x="611" y="328" width="262" height="208" key="Github.ShareDialog" timestamp="1586607699148">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
