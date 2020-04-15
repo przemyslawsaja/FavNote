@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <workItem from="1586594292226" duration="63713000" />
       <workItem from="1586853913658" duration="5467000" />
       <workItem from="1586891321320" duration="3572000" />
-      <workItem from="1586965824695" duration="4510000" />
+      <workItem from="1586965824695" duration="4853000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -281,10 +283,10 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1674" y="76" key="SettingsEditor/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355667958" />
-    <state x="674" y="12" width="631" height="852" key="find.popup" timestamp="1586970351751">
+    <state x="674" y="12" width="631" height="852" key="find.popup" timestamp="1586970700848">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
-    <state x="674" y="12" width="631" height="852" key="find.popup/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586970351751" />
+    <state x="674" y="12" width="631" height="852" key="find.popup/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586970700848" />
     <state x="674" y="12" width="629" height="852" key="find.popup/0.0.1461.864@0.0.1461.864" timestamp="1586796399297" />
     <state x="744" y="200" key="run.anything.popup" timestamp="1586784547112">
       <screen x="0" y="0" width="1461" height="864" />
