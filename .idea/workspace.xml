@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cms/cms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cms/with-styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/state.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.27a5b40a54be887138f1994e14a55a27.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.a7e82139.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.a7e82139.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.a7e82139.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.267f7711.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.267f7711.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.bb46dab6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.bb46dab6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/bulb.af737b55.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/link.6fc1d8fe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/logout.0969c92b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/magnifier.a14461b8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/pen.84b70f8a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/plus.e43ce6c8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/twitter.051af8ba.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/cms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/with-styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/breakpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/breakpoints.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +97,7 @@
       <workItem from="1586594292226" duration="63713000" />
       <workItem from="1586853913658" duration="5467000" />
       <workItem from="1586891321320" duration="3572000" />
-      <workItem from="1586965824695" duration="2064000" />
+      <workItem from="1586965824695" duration="4094000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
