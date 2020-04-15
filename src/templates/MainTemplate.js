@@ -6,6 +6,7 @@ import GlobalStyle from "../theme/GlobalStyle";
 import { theme } from "../theme/mainTheme";
 import PageContext from "../context";
 
+
 class MainTemplate extends React.Component {
     state = {
         pageType: 'notes',

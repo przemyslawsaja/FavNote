@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.netlify/state.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/cms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/with-styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/state.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
@@ -28,6 +29,9 @@
       <change beforePath="$PROJECT_DIR$/build/static/media/pen.84b70f8a.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/static/media/plus.e43ce6c8.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/static/media/twitter.051af8ba.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +121,9 @@
       <workItem from="1586354099272" duration="20456000" />
       <workItem from="1586423897590" duration="49295000" />
       <workItem from="1586594292226" duration="63713000" />
-      <workItem from="1586853913658" duration="1843000" />
+      <workItem from="1586853913658" duration="5467000" />
+      <workItem from="1586891321320" duration="3572000" />
+      <workItem from="1586965824695" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -210,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586803891072</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="rebuild">
+      <created>1586855818084</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586855818084</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,27 +257,30 @@
     <MESSAGE value="Added adding item sidebar." />
     <MESSAGE value="Adding item sidebar done." />
     <MESSAGE value="Added mediaqueries + build dir." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mediaqueries + build dir." />
+    <MESSAGE value="rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebuild" />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="92" key="#ESLint" timestamp="1586357475456">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="323" y="92" key="#ESLint/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586357475456" />
-    <state x="-1409" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586356194190">
-      <screen x="-1920" y="0" width="1461" height="864" />
+    <state x="511" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586895026076">
+      <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="-1409" y="223" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586356194190" />
-    <state x="468" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586806808995">
+    <state x="511" y="223" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586895026076" />
+    <state x="468" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586895036128">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="-1452" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355840025" />
+    <state x="468" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586895036128" />
     <state x="468" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1461.864@0.0.1461.864" timestamp="1586806808995" />
-    <state x="228" y="0" width="1143" height="864" key="CommitChangelistDialog2" timestamp="1586803889770">
+    <state x="228" y="0" width="1143" height="864" key="CommitChangelistDialog2" timestamp="1586855815431">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
     <state x="262" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586619525903" />
-    <state x="228" y="0" width="1143" height="864" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586803889770" />
+    <state x="228" y="0" width="1143" height="864" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586855815431" />
     <state x="512" y="294" key="Github.CreatePullRequestDialog" timestamp="1586803029183">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
@@ -294,9 +310,10 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state x="-1674" y="76" key="SettingsEditor/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355667958" />
-    <state x="674" y="12" width="629" height="852" key="find.popup" timestamp="1586796399297">
+    <state x="674" y="12" width="631" height="852" key="find.popup" timestamp="1586894195798">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
+    <state x="674" y="12" width="631" height="852" key="find.popup/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586894195798" />
     <state x="674" y="12" width="629" height="852" key="find.popup/0.0.1461.864@0.0.1461.864" timestamp="1586796399297" />
     <state x="744" y="200" key="run.anything.popup" timestamp="1586784547112">
       <screen x="0" y="0" width="1461" height="864" />

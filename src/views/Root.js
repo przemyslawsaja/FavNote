@@ -6,12 +6,10 @@ import Twitters from "./Twitters";
 import { routes } from "../routes";
 import { Provider } from 'react-redux';
 import DetailsPage from "./DetailsPage";
-import MainTemplate from "../templates/MainTemplate"
+import MainTemplate from "../templates/MainTemplate";
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-
 const Root = () => (
         <Provider store={store}>
-
             <BrowserRouter>
                 <MainTemplate>
                     <Switch>

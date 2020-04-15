@@ -1,13 +1,19 @@
 {
+  "homepage": "https://przemyslawsaja.github.io/FavNote",
   "name": "project2",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
   "dependencies": {
     "@storybook/addon-knobs": "^5.3.18",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "formik": "^2.1.4",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
@@ -19,6 +25,8 @@
     "uuid": "^7.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
