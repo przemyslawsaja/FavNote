@@ -1,12 +1,26 @@
-## Title
+ ## Project title 
 FavNote.
 
 ## Technolgies 
 React.js | Redux | Context | React-Router | UUID | Styled-Component | Formik | Storybook.js | HOC
 
+## App description
+User have 3 possible views to move around - notes, twitters and aricles. In all views user can add, remove and also see details of each item by clicking on it. 
+## Todo
+App is not deployed yet couse its still in progres.
+Incoming features: 
+-backend (User will need to be log in so the items in each view will be stored in memory after exiting/refreshing app)
+-search form
+-better form validations 
 
+## Screenshots
+<img src="src/assets/img/Screenshot_1.png" with="400" height="400">
+<img src="src/assets/img/Screenshot_2.png" with="400" height="400">
+<img src="src/assets/img/Screenshot_3.png" with="400" height="400">
+<img src="src/assets/img/Screenshot_4.png" with="400" height="400">
+<img src="src/assets/img/Screenshot_5.png" with="400" height="400">
+<img src="src/assets/img/Screenshot_6.png" with="400" height="400">
 
-This project was bootstrapped with [Create React Root](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -47,7 +61,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React Root documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
@@ -59,7 +73,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/co
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web Root
+### Making a Progressive Web App
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
