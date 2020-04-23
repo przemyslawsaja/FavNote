@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="02650b57-dc81-4531-8284-8cf566cb9c09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/templates/loginTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/bulb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/logout.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/magnifier.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/pen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/magnifier.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ButtonIcon/ButtonIcon.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Heading/Heading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Heading/Heading.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Input/Input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Input/Input.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Paragraph/Paragraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/Paragraph/Paragraph.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/DetailsTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/DetailsTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/GridTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/GridTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +50,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -49,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../home_pantry" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +67,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,18 +93,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -113,6 +110,7 @@
       <workItem from="1586891321320" duration="3572000" />
       <workItem from="1586965824695" duration="7843000" />
       <workItem from="1587053444934" duration="1877000" />
+      <workItem from="1587672656481" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="Base project structure, styled components package installed.">
       <created>1586356677264</created>
@@ -216,20 +214,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -270,10 +267,11 @@
     </state>
     <state x="262" y="0" key="CommitChangelistDialog2/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1586619525903" />
     <state x="228" y="0" width="1143" height="864" key="CommitChangelistDialog2/0.0.1461.864@0.0.1461.864" timestamp="1586855815431" />
-    <state x="511" y="188" key="FileChooserDialogImpl" timestamp="1587055258224">
-      <screen x="0" y="0" width="1461" height="864" />
+    <state x="2570" y="-252" key="FileChooserDialogImpl" timestamp="1587673741922">
+      <screen x="1920" y="-487" width="1858" height="1080" />
     </state>
     <state x="511" y="188" key="FileChooserDialogImpl/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@0.0.1461.864" timestamp="1587055258224" />
+    <state x="2570" y="-252" key="FileChooserDialogImpl/0.0.1858.1080/1920.-487.1858.1080/3840.0.1366.738@1920.-487.1858.1080" timestamp="1587673741922" />
     <state x="512" y="294" key="Github.CreatePullRequestDialog" timestamp="1586803029183">
       <screen x="0" y="0" width="1461" height="864" />
     </state>
@@ -299,10 +297,11 @@
       <screen x="-1920" y="0" width="1461" height="864" />
     </state>
     <state width="1453" height="112" key="GridCell.Tab.0.right/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586541786901" />
-    <state x="-1674" y="76" key="SettingsEditor" timestamp="1586355667958">
-      <screen x="-1920" y="0" width="1461" height="864" />
+    <state x="2233" y="-392" width="1440" height="710" key="SettingsEditor" timestamp="1587673748950">
+      <screen x="1920" y="-487" width="1858" height="1080" />
     </state>
     <state x="-1674" y="76" key="SettingsEditor/-1920.0.1461.864/0.0.1461.864/1920.220.1093.584@-1920.0.1461.864" timestamp="1586355667958" />
+    <state x="2233" y="-392" width="1440" height="710" key="SettingsEditor/0.0.1858.1080/1920.-487.1858.1080/3840.0.1366.738@1920.-487.1858.1080" timestamp="1587673748950" />
     <state x="674" y="12" width="631" height="852" key="find.popup" timestamp="1587055325781">
       <screen x="0" y="0" width="1461" height="864" />
     </state>

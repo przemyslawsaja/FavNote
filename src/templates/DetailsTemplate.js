@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import UserPageTemplate from "./UserPageTemplate";
 import withContext from "../hoc/withContext";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Button from "../components/Atoms/Button/Button";
 import styled from "styled-components";
 import Heading from "../components/Atoms/Heading/Heading";

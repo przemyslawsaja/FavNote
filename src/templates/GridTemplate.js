@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from "styled-components";
 import withContext from "../hoc/withContext";
 import UserPageTemplate from "./UserPageTemplate";
-import { device } from "../devices/breakpoints";
+import {device} from "../devices/breakpoints";
 import plusIcon from "../assets/icons/plus.svg";
 import Input from "../components/Atoms/Input/Input";
 import Heading from "../components/Atoms/Heading/Heading";
