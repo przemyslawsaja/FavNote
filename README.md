@@ -1,5 +1,5 @@
 ## DEMO
-https://favoritenotes.netlify.app/login
+https://favoritenotes.netlify.app
 ## Project title 
 FavNote.
 
